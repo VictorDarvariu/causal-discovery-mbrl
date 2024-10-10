@@ -1,0 +1,16 @@
+version: '2.3'
+services:
+  manager:
+    image: causal-discovery/manager
+    build:
+      context: .
+      dockerfile: ./docker/causal-discovery/Dockerfile
+    volumes:
+      - ${CD_SOURCE_DIR}:/causal-discovery
+      - ${CD_EXPERIMENT_DATA_DIR}:/experiment_data
+    ports:
+      - "8888:8888"
+    stdin_open: true
+    tty: true
+    container_name: cd-manager
+    hostname: cd-manager

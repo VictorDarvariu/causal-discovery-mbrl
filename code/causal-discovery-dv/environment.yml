@@ -1,0 +1,28 @@
+name: cddv-env
+channels:
+  - defaults
+dependencies:
+  - python==3.11.7
+  - networkx
+  - numpy
+  - pandas
+  - scikit-learn
+  - seaborn
+  - scipy
+  - pyyaml
+  - pytz
+  - psutil
+  - pytest
+  - pip
+  - pip:
+    - matplotlib
+    - xxhash
+    - multiprocess
+
+
+
+
+
+
+
+

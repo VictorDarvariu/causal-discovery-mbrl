@@ -1,0 +1,16 @@
+version: '2.3'
+services:
+  manager:
+    image: causal-discovery-dv/manager
+    build:
+      context: .
+      dockerfile: ./docker/causal-discovery-dv/Dockerfile
+    volumes:
+      - ${CDDV_SOURCE_DIR}:/causal-discovery-dv
+      - ${CD_EXPERIMENT_DATA_DIR}:/experiment_data
+    ports:
+      - "8888:8888"
+    stdin_open: true
+    tty: true
+    container_name: cddv-manager
+    hostname: cddv-manager

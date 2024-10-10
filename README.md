@@ -1,4 +1,4 @@
-This is the code for the article [_Tree Search in DAG Space with Model-based Reinforcement Learning for Causal Discovery_](https://doi.org/10.1098/rspa.2024.0450) by [Victor-Alexandru Darvariu](https://victor.darvariu.me), [Stephen Hailes](http://www.cs.ucl.ac.uk/drupalpeople/S.Hailes.html) and [Mirco Musolesi](https://mircomusolesi.org), published in Proceedings of the Royal Society A. If you use this code, please consider citing [our article](https://doi.org/10.1098/rspa.2024.0450).
+This repository contains the code and data for the article [_Tree Search in DAG Space with Model-based Reinforcement Learning for Causal Discovery_](https://doi.org/10.1098/rspa.2024.0450) by [Victor-Alexandru Darvariu](https://victor.darvariu.me), [Stephen Hailes](http://www.cs.ucl.ac.uk/drupalpeople/S.Hailes.html) and [Mirco Musolesi](https://mircomusolesi.org), published in Proceedings of the Royal Society A. If you use this code, please consider citing [our article](https://doi.org/10.1098/rspa.2024.0450).
 
 If you run into any issues when using this code, contact Victor-Alexandru Darvariu at [victord@robots.ox.ac.uk](mailto:victord@robots.ox.ac.uk).
 
@@ -26,7 +26,7 @@ This guide provides commands for reproducing the reported experiments. We highli
 Several integration tests are provided that "smoke-test" the key parts of each of the 2 components described above. To check that the components were set up successfully, we recommend running these integration tests, which are substantially faster than the experiments themselves.
 
 ## Configuration
-Unzip the provided `code.zip` file in a directory, e.g., `/home/jane/git`.
+Place the subdirectories of `code` in a source directory, e.g., `/home/jane/git`.
 
 Set the following environment variables e.g. in your `.bashrc`, adjusting paths and directories as needed.
 
@@ -40,7 +40,7 @@ export CD_EXPERIMENT_DATA_DIR=/home/jane/experiments/causal-discovery
 ```
 
 ## Setting up the data
-Underlying datasets for all experiments are provided. To set up this data, unzip the provided `datasets.zip` file to `$CD_EXPERIMENT_DATA_DIR`. Paths such as `$CD_EXPERIMENT_DATA_DIR/datasets/sachs`, etc. should now be accessible.
+Underlying datasets for all experiments are provided in the `datasets` subdirectory. To set up this data, copy the `datasets` subdirectory to `$CD_EXPERIMENT_DATA_DIR`. Paths such as `$CD_EXPERIMENT_DATA_DIR/datasets/sachs`, etc. should now be accessible.
 
 # `causal-discovery` component: continuous variables
 

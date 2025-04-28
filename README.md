@@ -1,4 +1,18 @@
-This repository contains the code and data for the article [_Tree Search in DAG Space with Model-based Reinforcement Learning for Causal Discovery_](https://doi.org/10.1098/rspa.2024.0450) by [Victor-Alexandru Darvariu](https://victor.darvariu.me), [Stephen Hailes](http://www.cs.ucl.ac.uk/drupalpeople/S.Hailes.html) and [Mirco Musolesi](https://mircomusolesi.org), published in Proceedings of the Royal Society A. If you use this code, please consider citing [our article](https://doi.org/10.1098/rspa.2024.0450).
+This repository contains the code and data for the article [_Tree search in DAG space with model-based reinforcement learning for causal discovery_](https://doi.org/10.1098/rspa.2024.0450) by [Victor-Alexandru Darvariu](https://victor.darvariu.me), [Stephen Hailes](http://www.cs.ucl.ac.uk/drupalpeople/S.Hailes.html) and [Mirco Musolesi](https://mircomusolesi.org), published in Proceedings of the Royal Society A. If you use this code, please consider citing [our article](https://doi.org/10.1098/rspa.2024.0450):
+
+```
+@article{darvariu2025tree,
+  title={Tree search in DAG space with model-based reinforcement learning for causal discovery},
+  author={Darvariu, Victor-Alexandru and Hailes, Stephen and Musolesi, Mirco},
+  journal = {Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences},
+  volume={481},
+  number={2312},
+  pages={20240450},
+  year={2025},
+  doi = {10.1098/rspa.2024.0450},
+  url = {https://royalsocietypublishing.org/doi/abs/10.1098/rspa.2024.0450}
+}
+```
 
 If you run into any issues when using this code, contact Victor-Alexandru Darvariu at [victord@robots.ox.ac.uk](mailto:victord@robots.ox.ac.uk).
 
